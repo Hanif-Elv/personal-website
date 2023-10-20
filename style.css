@@ -1,0 +1,40 @@
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+.container-1{
+  height: 500px;
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+.half-width{
+  width: 41%;
+  float: left;
+  margin-left: 6%;
+  padding-left: 3%;
+  height: 60%;
+  
+  
+}
+
+.text-deco{
+  color: #EC4C7A;
+}
+.half-width img{
+  width: 40%;
+}
+.whl-box{
+  margin-top: 40px;
+}
+.btn-style{
+  text-decoration: none;
+  background-color: #EC4C7A;
+  color: white;
+  border-radius: 7px;
+  padding: 12px 25px;
+}
+
+.container-2{
+
+}
