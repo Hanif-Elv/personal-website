@@ -1,5 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
 
 }
 .container-1{
@@ -8,22 +10,33 @@ body{
   background-repeat: no-repeat;
   padding-bottom: 150px;
 }
+.container-1 h2{
+  font-family: sans-serif;
+    font-size: 35px;
+}
+.container-1 p{
+  color: grey;
+}
 .half-width{
-  width: 41%;
+  width: 25%;
   float: left;
-  margin-left: 6%;
-  padding-left: 3%;
+  margin-left: 15%;
+  padding-left: 10%;
   height: 60%;
-  
-  
+  padding-top: 50px;
 }
 
 .text-deco{
   color: #EC4C7A;
+  /* font-weight: 800; */
+  font-size: 50px;
+  font-family: sans-serif;
+  
 }
-.half-width img{
-  width: 40%;
+.img-cls img{
+ width: 25%;
 }
+
 .whl-box{
   margin-top: 40px;
 }
@@ -34,7 +47,128 @@ body{
   border-radius: 7px;
   padding: 12px 25px;
 }
-
 .container-2{
+  height: 850px;
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+}
+.work-sec{
+  /* margin-bottom: 76px;
+  margin-right: 120px; */
+}
+.img-cls2 img{
+  width: 25%;
+  float: left;
+  margin-left: 10%;
+  padding-left: 10%;
+  padding-top: 50px;
+}
+.half-width-2{
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  padding-top: 8%;
 
 }
+.half-width-2 h1{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.half-width-2 p{
+  color: gray;
+}
+.container-3{
+  height: 580px;
+  width: 70%;
+  margin-left: 140px;
+  padding-left: 198px;
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+}
+.work-sec h1{
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.left-wrk img{
+  width: 30%;
+  float: left;
+}
+.mdl-wrk img{
+  width: 30%;
+  float: left;
+}
+.rgt-wrk img{
+  width: 30%;
+  float: left;
+}
+.client-area {
+  text-align: center;
+  height: 770px;
+}
+.client-area h1{
+  font-family: poppins;
+  font-size: 70px;
+  color: #202428;
+  
+}
+.client-area h2{
+  font-family: poppins;
+  font-size: 40px;
+  
+}
+.client-area h3{
+  font-family: poppins;
+  font-size: 35px;
+  color: #202428;
+}
+.client-area p{
+  font-size: 30px;
+  font-family: poppins;
+  color: grey;
+}
+.for-spac{
+  padding-bottom: 60px;
+}
+.for-spac2{
+  padding-bottom: 40px;
+}
+.full-wrap{
+  height: 470px;
+
+}
+.full-wrap img{
+
+}
+.email-box{
+  
+  background-color: #EC4C7A;
+  text-align: center;
+  width: 58%;
+  color: white;
+  border-radius: 25px;
+  margin: auto;
+  height: 230px;
+  padding: 45px;
+}
+.email-box h1{
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.email-box h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+footer{
+  height: 200px;
+}
+footer p{
+  font-size: 20px;
+  color: gray;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
